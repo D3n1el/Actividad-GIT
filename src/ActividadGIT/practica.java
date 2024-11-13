@@ -10,15 +10,15 @@ public class practica {
 		
 		// User 1 fer la suma dels elements de sumArray
 		
-
+		int numero = 0;
+		
+		for (int i = 0; i < sumArray.length; i++) {
+			numero = numero + sumArray[i];
+		}
+		System.out.print(numero);
 		
 		// User 2 fer la resta dels elements de subArray
-		int resta = 0;
 		
-		for (int i = 0; i < prodArray.length; i++) {
-			resta = resta -subArray[i];
-		}
-		System.out.print(resta);
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 	}
