@@ -15,8 +15,8 @@ public class practica {
 		// User 2 fer la resta dels elements de subArray
 		int resta = 0;
 		
-		for (int i = 0; i < prodArray.length; i++) {
-			resta = resta -subArray[i];
+		for (int i = 0; i < subArray.length; i++) {
+			resta = resta - subArray[i];
 		}
 		System.out.print(resta);
 		
