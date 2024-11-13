@@ -19,6 +19,13 @@ public class practica {
 		
 		// User 2 fer la resta dels elements de subArray
 		
+		int resta = 0;
+		
+		for (int i = 0; i < subArray.length; i++) {
+			resta = resta - subArray[i];
+		}
+		System.out.print(resta);
+
 		
 		// User 3 fer la multiplicació dels elements de prodArray
 	}
